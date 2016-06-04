@@ -1,0 +1,10 @@
+package br.com.tt;
+
+public class Compra {
+	
+	private String produto;
+	private String valor;
+	
+	
+
+}

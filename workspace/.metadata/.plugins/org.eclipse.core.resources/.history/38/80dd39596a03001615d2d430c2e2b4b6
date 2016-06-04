@@ -1,0 +1,27 @@
+
+public class Funcionario {
+	
+	String nome = " Nome qualquer";
+	Double salario = 1200d;
+	Character idade = 30;
+	
+	
+	
+	
+	
+	
+	
+	
+	public String getNome() {
+		return nome;
+	}
+	public Double getSalario() {
+		return salario;
+	}
+	public Character getIdade() {
+		return idade;
+	}
+	
+	
+
+}

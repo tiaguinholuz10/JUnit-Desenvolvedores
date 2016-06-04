@@ -1,0 +1,18 @@
+package br.com.tt;
+
+import junit.framework.TestCase;
+
+public class Teste extends TestCase{
+	
+	protected double valor1;
+	protected double valor2;
+	
+	
+	public void inicializa(){
+		
+		valor1 = 2.0;
+		valor2 = 3.0;
+	}
+
+	
+}

@@ -1,0 +1,34 @@
+package br.com.tt;
+
+import org.junit.Test;
+import org.junit.Assert;
+import static org.junit.Assert.*;
+
+
+
+public class Teste01 {
+	
+	@Test
+	public void primeiroTeste(){
+		fail("Não implem");
+		
+	}
+	
+	@Test
+	public void aaa(){
+		fail();
+	}
+	
+	@Test
+	public void bbb(){
+		fail();
+		
+	}
+	
+	@Test
+	public void ccc(){
+		fail();
+		
+	}
+
+}

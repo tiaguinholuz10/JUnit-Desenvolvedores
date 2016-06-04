@@ -1,0 +1,25 @@
+package br.com.tt;
+
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class Teste extends TestCase{
+	
+	protected double valor1;
+	protected double valor2;
+	
+	@Before
+	public void inicializa(){
+		
+		valor1 = 2.0;
+		valor2 = 3.0;
+	}
+
+	@Test
+	public void teste(){
+		assertEquals(5.0== True, valor1+valor2);
+		
+	}
+	
+}

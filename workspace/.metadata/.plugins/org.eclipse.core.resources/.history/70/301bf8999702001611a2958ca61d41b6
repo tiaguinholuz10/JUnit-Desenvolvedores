@@ -1,0 +1,28 @@
+package br.com.tt;
+
+public class Compra {
+	
+	private String produto;
+	private Double valor;
+	
+	
+	
+	
+	
+	
+	public String getProduto() {
+		return produto;
+	}
+	public void setProduto(String produto) {
+		this.produto = produto;
+	}
+	public String getValor() {
+		return valor;
+	}
+	public void setValor(String valor) {
+		this.valor = valor;
+	}
+	
+	
+
+}

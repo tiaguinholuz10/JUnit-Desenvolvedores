@@ -1,0 +1,22 @@
+package br.com.tt;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Calculartest {
+
+	@Test(expected = ArithmeticException.class, timeout = 1000)
+	public void testDividir() {
+		new Calcular().dividir();
+		
+	}
+	
+	@Test
+	public void testSomarPositivosPassandoSemValores()throws SistemaException{
+		new Calcular().somarPositivos(1l,2l,3l,4l);
+		
+		
+	}
+
+}

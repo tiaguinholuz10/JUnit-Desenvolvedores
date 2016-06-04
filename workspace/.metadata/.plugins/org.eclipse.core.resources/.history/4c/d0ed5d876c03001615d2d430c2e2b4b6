@@ -1,0 +1,9 @@
+
+public class FuncionarioService extends Funcionario {
+	
+	public  double calculadoraSalarioAnual() {
+		return 12 * this.salario; 
+		
+	}
+
+}

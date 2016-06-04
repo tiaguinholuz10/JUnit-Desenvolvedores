@@ -1,0 +1,13 @@
+package br.com.tt;
+
+import static org.junit.Assert.*;
+
+public class TesteJunit {
+	
+	@Teste
+	public void teste(){
+		String str= "Meu JUnit";
+		asserEquals("Meu JUnit".equals(str));
+	}
+
+}

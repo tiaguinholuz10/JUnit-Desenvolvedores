@@ -1,0 +1,5 @@
+1460676211724	Extract local variable 'caixa'
+1460676263254	Extract local variable 'arrayList'
+1460679901106	Rename type 'Soma'
+1460680283178	Extract local variable 'calculadora'
+1460760741863	Delete element

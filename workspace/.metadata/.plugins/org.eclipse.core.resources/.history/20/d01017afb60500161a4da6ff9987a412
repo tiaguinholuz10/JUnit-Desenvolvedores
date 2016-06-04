@@ -1,0 +1,9 @@
+package br.com.tt;
+
+public class SistemaException {
+	
+	private static final long serialVersionUID = 1L;
+	
+	
+
+}

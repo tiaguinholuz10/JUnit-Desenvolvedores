@@ -1,0 +1,7 @@
+package br.com.tt;
+
+public class TesteJunit01 {
+	
+	String nome = "Marcia Maria dos Santos";
+
+}

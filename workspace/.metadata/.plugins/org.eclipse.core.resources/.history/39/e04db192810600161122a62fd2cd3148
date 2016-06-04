@@ -1,0 +1,22 @@
+package br.com.tt;
+
+public class Avaliacao {
+	
+	
+	public String avaliar(Estudante aluno){
+		String retorno = "";
+		
+		if(aluno.getNotaProva() >= 7){
+			if(aluno.getNotaTrabalho() >= 7){
+				retorno = "Aprovado";
+			}
+		retorno = "Recuperacão";
+			
+		}else{
+			retorno = "Reprovado";
+		}
+		
+		return null;
+	}
+
+}

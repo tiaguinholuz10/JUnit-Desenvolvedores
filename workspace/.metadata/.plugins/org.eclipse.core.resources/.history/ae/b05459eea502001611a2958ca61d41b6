@@ -1,0 +1,43 @@
+package br.com.tt;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void testSomar() {
+		int val1 = 2;
+		int val2 = 2;
+		
+		Calculadora calculadora = new Calculadora();
+		int soma = calculadora.somar(val1, val2);
+		assertEquals(4, soma);
+		
+	}
+	
+	@Test
+	public void testDividir() {
+		int val1 = 10;
+		int val2 = 3;
+		
+		Calculadora calculadora = new Calculadora();
+		int dividir = calculadora.dividir(val1, val2);
+		assertEquals(3, dividir);
+		
+	}
+	
+	@Test
+	public void testDividirDouble() {
+
+		double val3 = 10d;
+		double val4 = 3d;
+		
+		Calculadora calculadora = new Calculadora();
+		double result = calculadora.dividirD(val3, val4);
+		assertEquals(new Double(3.3d), new Double(result));
+		
+	}
+
+}

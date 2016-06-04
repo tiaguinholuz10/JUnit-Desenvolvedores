@@ -1,0 +1,8 @@
+
+public class Funcionario {
+	
+	String nome = " Nome qualquer";
+	Double salario = 1200d;
+	Character idade = 30;
+
+}

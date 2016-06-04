@@ -1,0 +1,9 @@
+package br.com.tt.dao;
+
+public interface Crud<T> {
+	
+	void salvar(T entity){
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package br.com.tt;
+
+import java.util.ArrayList;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		Caixa caixa = new Caixa();
+		
+		
+		
+		ArrayList<Compra> compras = new ArrayList<Compra>();
+		caixa.calcular(compras);
+		
+		
+		System.out.println("Resultado da Maior Compra: " + caixa.getMaiorCompra());
+
+	}
+	
+
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "calcular",
+    "description": "",
+    "name": "Calcular",
+    "keyword": "Funcionalidade",
+    "line": 2,
+    "elements": [
+      {
+        "id": "calcular;soma",
+        "before": [
+          {
+            "result": {
+              "duration": 224700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalcularTest.inicializar()"
+            }
+          }
+        ],
+        "description": "",
+        "name": "Soma",
+        "keyword": "Cenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 403636573,
+              "status": "passed"
+            },
+            "name": "o primeiro valor \"5\" e o segundo valor \"3\"",
+            "keyword": "Dado ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 18
+                },
+                {
+                  "val": "3",
+                  "offset": 40
+                }
+              ],
+              "location": "CalcularTest.o_primeiro_valor_e_o_segundo_valor(Integer,Integer)"
+            }
+          },
+          {
+            "result": {
+              "duration": 49933,
+              "status": "passed"
+            },
+            "name": "eu realizo a soma",
+            "keyword": "Quando ",
+            "line": 5,
+            "match": {
+              "location": "CalcularTest.eu_realizo_a_soma()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3883081,
+              "status": "passed"
+            },
+            "name": "o resultado da soma \"8\"",
+            "keyword": "Entao ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 21
+                }
+              ],
+              "location": "CalcularTest.o_resultado_da_soma_(Integer)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "br/com/tt/calcular.feature",
+    "comments": [
+      {
+        "value": "# language: pt",
+        "line": 1
+      }
+    ]
+  }
+]

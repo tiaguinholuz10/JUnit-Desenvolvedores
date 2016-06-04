@@ -1,0 +1,11 @@
+package br.com.tt;
+
+
+
+public class TesteJunit {
+	public void teste(){
+		String str= "Meu JUnit";
+		asserEquals("Meu JUnit".equals(str));
+	}
+
+}

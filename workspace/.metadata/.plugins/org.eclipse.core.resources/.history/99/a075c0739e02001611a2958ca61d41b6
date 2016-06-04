@@ -1,0 +1,27 @@
+package br.com.tt;
+
+import org.junit.Test;
+
+public class Teste01 {
+	
+	@Test
+	public void primeiroTeste(){
+		
+		
+	}
+	
+	@Test
+	public void aaa(){
+		
+	}
+	
+	public void bbb(){
+		
+		
+	}
+	public void ccc(){
+		
+		
+	}
+
+}

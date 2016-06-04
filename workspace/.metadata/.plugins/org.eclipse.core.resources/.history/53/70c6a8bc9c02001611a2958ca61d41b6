@@ -1,0 +1,11 @@
+package br.com.tt;
+
+public class Teste01 {
+	
+	@Test
+	public void primeiroTeste(){
+		
+		
+	}
+
+}

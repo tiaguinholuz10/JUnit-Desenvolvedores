@@ -1,0 +1,29 @@
+package br.com.tt;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+
+public class AvaliacaoTest {
+
+	@Test
+	public void testAvaliarAlunoAprovado() {
+		
+		Avaliacao avaliacao = new Avaliacao();
+		Estudante aluno = mockito.mock(Estudante.class);
+		when(aluno.getNotaProva()).thenReturn(8d);
+		when(aluno.getNotaTrabalho()).thenReturn(7D);
+		
+		
+		String resultado = avaliacao.avaliar(aluno);
+		
+		assertEquals(Avaliacao.Aprovado, resultado);		
+		
+	}
+	
+	private Estudante getAluno(){
+		Estudante aluno = Mockito.mock(Estudante.class);
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package br.com.tt;
+
+public class Calcular {
+	
+	public void dividir(){
+		int val1 = 0;
+		int val2 = 1;
+		int resul = val2/val1;
+		
+		
+		System.out.println(String.format("Dividir %d por %d =", val1, val2, resul));
+		
+		
+	}
+	
+	public long somarPositivos(Long... valores) throws SistemaException {
+		try {
+			long resultado = 0;
+			for (long l : valores) {
+				if (l < 0) {
+					throw new SistemaException("Não pode informar valor negativo, valor " + l);
+				}
+				resultado += 1;
+			}
+			return resultado;
+
+		} catch (Exception e) {
+			throw new SistemaException("Falha no metodo somarPositivos" ,e);
+		}
+
+	}
+
+}
